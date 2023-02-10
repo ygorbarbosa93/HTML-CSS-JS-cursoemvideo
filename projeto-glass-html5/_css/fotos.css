@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+#album-fotos {
+  width: 700px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+  list-style: none;
+}
+#album-fotos li {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 5px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in;
+}
+#album-fotos li:hover {
+  transform: scale(1.5);
+}
+span {
+  opacity: 0;
+  color: #ffffff;
+  font-size: 9pt;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  line-height: 380px;
+}
+#album-fotos li:hover span {
+  opacity: 1;
+}
+
+#foto-01 {
+  background: url("../_imagens/galeria-01.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-01:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+#foto-02 {
+  background: url("../_imagens/galeria-02.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-02:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+#foto-03 {
+  background: url("../_imagens/galeria-03.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-03:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+#foto-04 {
+  background: url("../_imagens/galeria-04.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-04:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+#foto-05 {
+  background: url("../_imagens/galeria-05.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-05:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}
+#foto-06 {
+  background: url("../_imagens/galeria-06.jpg");
+  background-position: 50% 50%; /* posição da foto no quadro*/
+  background-size: 400px 400px; /* tamanho da foto no quadro*/
+  background-color: #ffffff;
+}
+#foto-06:hover {
+  background-position: 0px 0px;
+  background-size: 200px 200px;
+}

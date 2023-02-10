@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimídia</title>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <link rel="stylesheet" href="_css/media.css" />
+    <script src="_javascript/funcoes.js"></script>
+  </head>
+  <body>
+    <div id="interface">
+      <header id="cabecalho">
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+        <img id="icone" src="_imagens/multimidia.png" alt="" />
+        <nav id="menu" aria-label="navegar">
+          <h1>Menu Principal</h1>
+          <ul>
+            <li
+              onmousemove="mudarFoto('_imagens/home.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              onmousemove="mudarFoto('_imagens/especificacoes.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="specs.html">Especificações</a>
+            </li>
+            <li
+              onmousemove="mudarFoto('_imagens/fotos.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="fotos.html">Fotos</a>
+            </li>
+            <li
+              onmousemove="mudarFoto('_imagens/multimidia.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="multimidia.html">Multimídia</a>
+            </li>
+            <li
+              onmousemove="mudarFoto('_imagens/contato.png')"
+              onmouseout="mudarFoto('_imagens/multimidia.png')"
+            >
+              <a href="fale-conosco.html">Fale conosco</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <article id="noticia-principal">
+          <header id="cabecalho-artigo">
+            <h3>Glass &gt;&nbsp;Multimídia</h3>
+            <h1>Sons e Vídeos</h1>
+            <h2>por Gustavo Guanabara</h2>
+            <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+          </header>
+          <div id="tv-radio">
+            <audio id="musica" controls="controls">
+              <souce
+                src="_media/2009-lovers-carvings-bibio.mp3"
+                type="audio/mpeg"
+              />
+              <souce
+                src="_media/2009-lovers-carvings-bibio.oggvorbis.ogg"
+                type="audio/ogg"
+              />
+              Desculpe, o arquivo não pode ser reproduzido.
+            </audio>
+            <video
+              id="filme"
+              controls="controls"
+              poster="_imagens/video-mini03.jpg"
+            >
+              <source src="_media/getting-started.mp4" type="video/mp4" />
+              Desculpe, o arquivo não pode ser reproduzido.
+            </video>
+          </div>
+        </article>
+      </section>
+      <footer id="rodape">
+        <p>
+          Copyright &copy; 2013 - by Gustavo Guanabara<br />
+          <a href="https://facebook.com/cursosemvideo" target="_blank"
+            >Facebook</a
+          >
+          |
+          <a href="https://twitter.com/cursosemvideo" target="_blank"
+            >Twitter</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

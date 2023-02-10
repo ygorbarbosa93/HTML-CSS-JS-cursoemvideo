@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@font-face {
+  font-family: "FonteLogo";
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cecece;
+  color: rgba(0, 0, 0, 1);
+}
+#interface {
+  width: 900px;
+  background-color: #eeeeee;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px #888888;
+  padding: 10px;
+}
+
+#noticia-principal h2 {
+  font-size: 13pt;
+  color: #606060;
+  background-color: #dddddd;
+  padding: 5px 0px 5px 10px;
+  margin: 10px 0px 10px 0px;
+}
+#cabecalho-artigo h1 {
+  font-family: "FonteLogo", sans-serif;
+  font-size: 20pt;
+  color: #606060;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#cabecalho-artigo h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 13pt;
+  color: #cecece;
+  background-color: #ffffff;
+  margin: 0px;
+}
+#cabecalho-artigo h3 {
+  font-size: 12pt;
+  color: #606060;
+}
+
+.direita {
+  text-align: right;
+}
+
+p {
+  text-align: justify;
+  text-indent: 50px;
+  text-size-adjust: auto;
+}
+a {
+  text-decoration: none;
+  color: #606060;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+#cabecalho #icone {
+  position: absolute;
+  left: 1000px;
+  top: 69px;
+}
+
+#cabecalho {
+  border-bottom: 1px #606060 solid;
+  height: 150px;
+  background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+}
+
+#cabecalho h1 {
+  font-family: "FonteLogo", sans-serif;
+  font-size: 30pt;
+  color: #606060;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  padding: 0px;
+  margin-bottom: 0px;
+}
+#cabecalho h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15pt;
+  color: #888888;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+/* Formatação Imagem */
+
+.foto-legenda {
+  position: relative;
+  border: 8px solid white;
+  box-shadow: 1px 1px 4px black;
+}
+
+.foto-legenda img {
+  width: 100%;
+  height: 100%;
+}
+.foto-legenda figcaption {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 1s;
+}
+.foto-legenda:hover figcaption {
+  opacity: 1;
+}
+
+/* Formatação Menu Navegação */
+
+#menu {
+  display: block;
+}
+
+#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 570px;
+}
+
+#menu li {
+  display: inline-block;
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 1s;
+}
+#menu li:hover {
+  background-color: #606060;
+}
+#menu h1 {
+  display: none;
+}
+#menu a {
+  color: black;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: white;
+}
+
+/* SEMÂNTICA */
+
+#corpo {
+  display: block;
+  width: 460px;
+  float: left;
+  border-right: 1px #606060 solid;
+  padding-right: 20px;
+}
+#tabela {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tabela td {
+  border: 1px solid #606060;
+  padding: 10px;
+  text-align: left;
+  background-color: #cecece;
+  vertical-align: middle;
+}
+#tabela th {
+  vertical-align: top;
+  text-align: center;
+  color: white;
+  background-color: #606060;
+  font-weight: bold;
+}
+#tabela caption {
+  color: #888888;
+  font-size: 13pt;
+  font-weight: bold;
+}
+#tabela span {
+  display: block;
+  float: right;
+  color: black;
+  font-size: 8pt;
+  margin-top: 10px;
+}
+#lateral {
+  display: block;
+  width: 390px;
+  float: right;
+  background-color: #dddddd;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#lateral h1 {
+  font-family: "FonteLogo", sans-serif;
+  font-size: 20pt;
+  color: #606060;
+  margin-top: 0px;
+}
+#lateral h2 {
+  font-size: 13pt;
+  color: #ffffff;
+  background-color: #606060;
+  padding: 5px;
+}
+
+#rodape {
+  clear: both;
+  border-top: 1px #606060 solid;
+  text-align: center;
+}
+
+#rodape p {
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+#rodape a {
+  padding: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
